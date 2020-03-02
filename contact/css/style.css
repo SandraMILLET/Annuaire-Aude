@@ -1,0 +1,425 @@
+html
+{
+    padding: auto;
+    margin: auto;
+}
+
+body {
+    background-image: url(../img/blob.svg);
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position-x: -105px;
+    background-position-y: -510px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    
+    
+}
+
+/* NAV BAR */
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_navbar {
+    /*background-color: red;*/
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    /*background-color: green;*/
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+}
+
+.menu_nav {
+    
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Rubik;
+}
+
+.search_icon {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/loupe_blanche.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu_nav a {
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+/* FIN NAV BAR */ 
+
+
+/* DEBUT CONTACT FORMULAIRE */
+
+.questions {
+
+    font-family: rubik;
+    font-size: 35px;
+    margin-left: 350px;
+    margin-top: 70px;
+}
+
+.separateur {
+
+    width: 15%;
+    height: 2px;
+    background-color: black; 
+    margin-left: 460px;
+}
+
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+    border-radius: 1.5%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+    
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: purple;
+    font-family: rubik;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: purple;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: purple;
+    border: none;
+    cursor: pointer;
+    
+}
+
+/* FIN CONTACT FORMULAIRE */
+
+.adresse {
+
+    font-size: 35px;
+    text-align: center;
+    font-family: rubik;
+    margin-top: 30px;
+}
+
+#row1 {
+
+    text-align: center;
+    
+}
+
+.horaires {
+
+    font-family: rubik;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.horaires_2 {
+
+    font-family: rubik;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.rdv {
+
+    font-family: rubik;
+    font-size: 25px;
+    margin-top: 60px;
+}
+.myButton {
+background-color: transparent;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color: purple;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 28px;
+    text-decoration:none;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    
+    .questions {
+    font-size: 25px;
+    text-align: center;
+    margin-left: auto;
+    }
+
+    .contact-form .btnContact {
+       font-size: 12px;
+       margin-left: 50px;
+    }
+
+   .adresse {
+       font-size: 25px;
+   }
+
+   .horaires {
+       font-size: 25px;
+   }
+
+   .rdv {
+       font-size: 20px;
+   }
+}
+footer {
+    background-image: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%; /* Ici il y avait height: 850px me semble-t-il*/
+}
+
+.ctnr_footer {
+	margin-top: 30%; /*Pour le rendre responsif, utiliser les @media pour réduire cette valeur histoire d'éviter d'avoir 300px en plus pour rien ._.*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+padding-top: 18%;
+}
+
+
+/*foot1*/
+.foot1 {
+    /*background-color: red;*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.box_titre_foot1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Rimouski;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box_btn_foot1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.box_btn_foot1_1,
+.box_btn_foot1_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+
+.news_button {
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    color: black;
+    font-family: Arial;
+    font-size: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.news_button2 {
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    color: black;
+    font-family: Arial;
+    font-size: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+
+/*foot2*/
+.foot2 {
+    /*background-color: blue;*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.box_titre_foot2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Rimouski;
+    font-size: 20px;
+}
+
+
+
+.box_texte_foot_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.texte_foot2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*foot3*/
+.foot3 {
+    /* background-color: green;*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.box_titre_foot3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Rimouski;
+    font-size: 20px;
+}
+
+
+
+.box_texte_foot3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.texte_foot3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.foot4 {
+    /*background-color: gold;*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 70px;
+
+}
+
+.box_titre_foot4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Rimouski;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.box_tel_foot4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+}
+
+
+
+.box_texte_foot4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+

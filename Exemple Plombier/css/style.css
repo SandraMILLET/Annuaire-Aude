@@ -1,0 +1,1008 @@
+html {
+    padding: auto;
+    margin: auto;
+}
+
+body {
+    background-image: url(../img/blob.svg);
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position-x: -105px;
+    background-position-y: -510px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* NAV BAR */
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_navbar {
+    /*background-color: red;*/
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    /*background-color: green;*/
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+}
+
+.menu_nav {
+
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Rubik;
+}
+
+.search_icon {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/loupe_blanche.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu_nav a {
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+
+/* DEBUT PROFESSION */
+
+.profession {
+    width: 271px;
+    height: 85px;
+    left: 584px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 76px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+.premiertexte{
+    margin-left: 150px;
+}
+
+
+.societe {
+
+    width: 504px;
+    height: 46px;
+    left: 90px;
+    top: 449px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 57px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.separateur2 {
+    width: 5%;
+    height: 2px;
+    background-color: black;
+}
+
+.citation {
+
+    width: 400px;
+    height: 71px;
+    left: 90px;
+    top: 546px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+.avatar {
+
+    width: 163px;
+    height: 162px;
+    background-image: url('../img/societe.png');
+    background-blend-mode: normal;
+    background-size: 164px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+
+}
+
+.video {
+    display: flex;
+
+    width: 350px;
+    height: 46px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 57px;
+    color: #000000;
+    opacity: 0.8;
+}
+.video2{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 50px;
+
+}
+
+.video_texte1{
+    display: flex;
+    justify-content: center;
+}
+.video_texte {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    height: 100px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 180px;
+
+}
+.titretravaux{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.travaux {
+    display: flex;
+    width: 475px;
+    height: 46px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 57px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.separateur3 {
+    display: flex;
+    width: 190px;
+    height: 2px;
+    background-color: black;
+}
+
+.citation2 {
+    display: flex;
+    align-items: center;
+    height: 71px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo1 {
+    display: flex;
+    width: 230px;
+    height: 230px;
+    background-image: url('../img/plomberie.jpg');
+    background-size: 230px;
+    background-blend-mode: normal;
+    margin: 20px;
+
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+
+}
+
+.photo2 {
+
+    width: 230px;
+    height: 230px;
+    background-image: url('../img/plomberie2.jpg');
+    background-size: 230px;
+    background-blend-mode: normal;
+    margin: 20px;
+
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+
+}
+
+.photo3 {
+
+    width: 230px;
+    height: 230px;
+    background-image: url('../img/plomberie3.jpg');
+    background-size: 230px;
+    background-blend-mode: normal;
+    margin: 20px;
+
+
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+
+}
+
+.photo4 {
+
+    width: 230px;
+    height: 230px;
+    background-image: url('../img/plomberie4.jpeg');
+    background-size: 230px;
+    background-blend-mode: normal;
+
+    margin: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+
+}
+
+
+.checked {
+    color: orange;
+    margin-top: 60px;
+}
+
+.avis {
+    margin-top: 30px;
+    width: 350px;
+    height: 60px;
+    left: 135px;
+    top: 1896px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.bouton {
+    margin-top: 50px;
+    background-color: transparent;
+    border-radius: 37px;
+    border: 2px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #5d4bc4;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 30px;
+    text-decoration: none;
+
+
+}
+
+.fournisseurs {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 500px;
+    height: 49px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 43px;
+    color: #000000;
+
+}
+
+
+.recrutement {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 500px;
+    height: 49px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 43px;
+    color: #000000;
+    text-align: center;
+
+
+}
+
+.fournisseurs_2 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 110px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+
+}
+.fournisseur_3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.recrutement_3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.recrutement_2 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 110px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.adresse {
+    height: 49px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 43px;
+    color: #000000;
+    text-align: center;
+}
+
+
+
+
+.horaires_2 {
+    margin-top: 50px;
+    margin-left: 140px;
+    width: 550px;
+    height: 110px;
+    left: 243px;
+    top: 2350px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.telephone {
+    margin-top: 70px;
+    margin-left: 160px;
+    width: 314px;
+    height: 110px;
+    left: 243px;
+    top: 2350px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.fin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bouton_2 {
+    background-color: transparent;
+    border-radius: 37px;
+    border: 2px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #5d4bc4;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 30px;
+    text-decoration: none
+}
+
+.bouton_3 {
+    background-color: transparent;
+    border-radius: 37px;
+    border: 2px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #5d4bc4;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 30px;
+    text-decoration: none
+}
+
+
+
+footer {
+    background-image: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.newsletter {
+
+    opacity: 1;
+    width: 1378.075927734375px;
+    height: 244px;
+
+    color: rgba(255, 255, 255, 1);
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    font-family: Rubik;
+    text-align: left;
+    letter-spacing: 0;
+}
+
+.news_button {
+
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    color: black;
+    font-family: Arial;
+    font-size: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+
+
+}
+
+.news_button2 {
+
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    color: black;
+    font-family: Arial;
+    font-size: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+
+
+
+}
+
+.solutions {
+
+
+    opacity: 1;
+    width: 750px;
+    height: 244px;
+
+    color: rgba(255, 255, 255, 1);
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    font-family: Rubik;
+    text-align: center;
+    letter-spacing: 0;
+
+
+}
+
+.solutions_2 {
+
+
+    opacity: 1;
+    width: 750px;
+    height: 244px;
+
+    color: rgba(255, 255, 255, 1);
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    font-family: Rubik;
+    text-align: center;
+    letter-spacing: 0;
+    font-size: 15px;
+    white-space: pre;
+}
+
+.propos {
+
+
+    opacity: 1;
+    width: 1450px;
+    height: 244px;
+
+    color: rgba(255, 255, 255, 1);
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    font-family: Rubik;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+.propos_2 {
+
+
+    opacity: 1;
+    width: 1450px;
+    height: 244px;
+
+    color: rgba(255, 255, 255, 1);
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    font-family: Rubik;
+    text-align: center;
+    letter-spacing: 0;
+    font-size: 15px;
+    white-space: pre;
+}
+
+.contact {
+
+
+    opacity: 1;
+    width: 2200px;
+    height: 244px;
+
+    color: rgba(255, 255, 255, 1);
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    font-family: Rubik;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+.contact_2 {
+
+
+    opacity: 1;
+    width: 2200px;
+    height: 244px;
+
+    color: rgba(255, 255, 255, 1);
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    font-family: Rubik;
+    text-align: center;
+    letter-spacing: 0;
+    font-size: 15px;
+    white-space: pre;
+}
+
+.suivi {
+
+
+    opacity: 1;
+    width: 2200px;
+    height: 244px;
+
+    color: rgba(255, 255, 255, 1);
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    font-family: Rubik;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+
+
+
+.col-md-12 {
+    padding: 20px;
+}
+
+.col-md-4 {
+    padding: 30px;
+
+}
+
+.col-md-7 {
+    padding: 20px;
+}
+
+.col-md-5 {
+    padding: 12px;
+}
+
+.col-md-3 {
+    padding: 20px;
+
+}
+
+.col-md-6 {
+    padding: 12px;
+}
+
+.col-md-8 {
+
+    padding: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+    .premiertexte {
+        margin-left: 35px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .societe {
+        width: 300px;
+    }
+
+    .avis {
+        width: 330px;
+    }
+
+    .recrutement {
+        width: 400px;
+    }
+
+    .recrutement_2 {
+        width: 500px;
+    }
+
+    .travaux {
+        width: 500px;
+    }
+
+    .map {
+        display: flex;
+        justify-content: center;
+    }
+    .video_texte{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+    .menu_nav {
+        display: flex;
+        align-items: flex-end;
+        width: 450px;
+    }
+
+    .video2 {
+        margin-left: 40px;
+    }
+    .photo1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .photo2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .photo3 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .photo4 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .avis {
+        font-size: 13px;
+    }
+
+    .fournisseurs_2 {
+        width: 473px;
+
+    }
+
+    .fournisseur_3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fournisseurs {
+        width: 473px;
+    }
+
+    .recrutement_2{
+        width: 400px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .fournisseurs{
+        width: 400px;
+    }
+    .fournisseurs_2{
+        width: 400px;
+    }
+    .horaires_2{
+        width: 200px;
+        margin: 0;
+    }
+    .telephone{
+        width: 200px;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .fin{
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .profession {
+        font-size: 25px;
+
+    }
+}
+
+footer {
+    background-image: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%; /* Ici il y avait height: 850px me semble-t-il*/
+}
+
+.ctnr_footer {
+	margin-top: 25%; /*Pour le rendre responsif, utiliser les @media pour réduire cette valeur histoire d'éviter d'avoir 300px en plus pour rien ._.*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    padding-top: -25%;
+}
+
+
+/*foot1*/
+.foot1 {
+    /*background-color: red;*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.box_titre_foot1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Rimouski;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box_btn_foot1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.box_btn_foot1_1,
+.box_btn_foot1_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+
+.news_button {
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    color: black;
+    font-family: Arial;
+    font-size: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.news_button2 {
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    color: black;
+    font-family: Arial;
+    font-size: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+
+/*foot2*/
+.foot2 {
+    /*background-color: blue;*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.box_titre_foot2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Rimouski;
+    font-size: 20px;
+}
+
+
+
+.box_texte_foot_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.texte_foot2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*foot3*/
+.foot3 {
+    /* background-color: green;*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.box_titre_foot3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Rimouski;
+    font-size: 20px;
+}
+
+
+
+.box_texte_foot3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.texte_foot3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.foot4 {
+    /*background-color: gold;*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 70px;
+
+}
+
+.box_titre_foot4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Rimouski;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.box_tel_foot4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+}
+
+
+
+.box_texte_foot4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+

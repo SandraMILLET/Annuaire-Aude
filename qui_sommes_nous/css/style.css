@@ -1,0 +1,487 @@
+html
+{
+    padding: auto;
+    margin: auto;
+}
+body {
+    background-image: url(../img/blob.svg);
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-position-x: -105px;
+    background-position-y: -510px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    
+    
+}
+
+
+
+
+/* NAV BAR */
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_navbar {
+    /*background-color: red;*/
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    /*background-color: green;*/
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+}
+
+.menu_nav {
+    
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Rubik;
+}
+
+.search_icon {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/loupe_blanche.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu_nav a {
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+.qui {
+margin-top: 80px;
+font-family: rubik;
+font-size: 40px;
+text-align: center;
+}
+
+.separateur {
+
+    margin-left: 460px;
+    width: 17%;
+    height: 2px;
+    background-color: black;
+}
+
+.citation {
+    
+    margin-top: 30px;
+    font-family: rubik;
+    font-size: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#row1 {
+
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.photo1 {
+
+    width: 260px;
+    height: 260px;
+    background-image: url('../img/photo.png');
+    background-size: 260px;
+    background-blend-mode: normal;
+    margin: 40px;
+    
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
+.photo2 {
+
+    width: 260px;
+    height: 260px;
+    background-image: url('../img/photo.png');
+    background-size: 260px;
+    background-blend-mode: normal;
+    margin: 40px;
+    
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
+.photo3 {
+
+    width: 260px;
+    height: 260px;
+    background-image: url('../img/photo.png');
+    background-size: 260px;
+    background-blend-mode: normal;
+    margin: 40px;
+    
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
+.prenom {
+    
+    font-size: 30px;
+    margin-left: 170px;
+    
+}
+
+.prenom1 {
+
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+.prenom2 {
+
+    font-size: 30px;
+    margin-left: 130px;
+}
+
+.para {
+    font-size: 12px;
+    margin-left: 80px;
+}
+
+.para1 {
+    font-size: 12px;
+    margin-left: 70px;
+}
+
+.para2 {
+
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+.contact {
+
+    font-family: rubik;
+    font-size: 30px;
+    margin-top: 110px;
+    margin-left: 360px;
+}
+
+.bouton {
+
+    background-color:#000000;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: rubik;
+	font-size:17px;
+	padding:12px 28px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #000000;
+    margin-left: 500px;
+    margin-top: 45px;
+}
+
+@media (max-width: 375px) {
+
+    body {
+        width: auto;
+        
+    }
+   
+    .qui { 
+        font-size: 15px;
+        margin-right: 190px;
+              
+    }
+
+    .separateur {
+        display: none;
+    }
+
+    .citation {
+         margin-right: 195px;
+        font-size: 9px;
+    }
+
+    .photo1 {
+        display: none;
+    }
+
+    .photo2 {
+        display: none;;
+    }
+
+    .photo3 {
+        display: none;
+    }
+
+    .prenom, .prenom1, .prenom2 {
+        font-size: 15px;
+       margin-left: 65px;
+    }
+
+    .para, .para1, .para2 {
+        font-size: 8px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        width: auto;
+        
+    }
+   
+    .qui {
+        font-size: 20px;
+        margin-right: 550px;
+    }
+
+    .photo1 {
+        display: none;
+    }
+
+    .photo2 {
+        display: none;;
+    }
+
+    .photo3 {
+        display: none;
+    }
+
+    .prenom, .prenom1, .prenom2 {
+        font-size: 18px;
+        margin-left: 50px;
+    }
+
+    .para, .para1, .para2 {
+        font-size: 10px;
+        margin-left: 30px;
+        
+    }
+}
+
+footer {
+    background-image: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%; /* Ici il y avait height: 850px me semble-t-il*/
+}
+
+.ctnr_footer {
+	margin-top: 25%; /*Pour le rendre responsif, utiliser les @media pour réduire cette valeur histoire d'éviter d'avoir 300px en plus pour rien ._.*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    padding-top: 18%;
+}
+
+
+/*foot1*/
+.foot1 {
+    /*background-color: red;*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.box_titre_foot1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Rimouski;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box_btn_foot1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.box_btn_foot1_1,
+.box_btn_foot1_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+
+.news_button {
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    color: black;
+    font-family: Arial;
+    font-size: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.news_button2 {
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    color: black;
+    font-family: Arial;
+    font-size: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+
+/*foot2*/
+.foot2 {
+    /*background-color: blue;*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.box_titre_foot2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Rimouski;
+    font-size: 20px;
+}
+
+
+
+.box_texte_foot_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.texte_foot2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*foot3*/
+.foot3 {
+    /* background-color: green;*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.box_titre_foot3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Rimouski;
+    font-size: 20px;
+}
+
+
+
+.box_texte_foot3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.texte_foot3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.foot4 {
+    /*background-color: gold;*/
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 70px;
+
+}
+
+.box_titre_foot4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Rimouski;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.box_tel_foot4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+}
+
+
+
+.box_texte_foot4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+

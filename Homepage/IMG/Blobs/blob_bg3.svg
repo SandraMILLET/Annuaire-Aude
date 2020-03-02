@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1693.921" height="1569.33" viewBox="0 0 1693.921 1569.33">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6ba2d8"/>
+      <stop offset="1" stop-color="#db4efd"/>
+    </linearGradient>
+  </defs>
+  <g id="blob-shape_5_" data-name="blob-shape (5)" transform="translate(1415.744 823.714) rotate(149)">
+    <path id="Tracé_16" data-name="Tracé 16" d="M1058.4-7.549c103.551,98.691,112.091,251.622,73.3,403.76s-124.9,303.746-287.877,378.36C680.5,849.184,440.3,846.8,243.879,776.687,47.453,706.307-104.848,567.928-175.3,398.592-246.118,229.256-234.731,28.435-98.8-75.813c135.576-103.983,396.41-111.92,625.929-93.4S954.854-106.24,1058.4-7.549Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
