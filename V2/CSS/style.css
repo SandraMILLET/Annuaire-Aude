@@ -228,7 +228,7 @@ header h2 {
   height: auto;
   background-color: none;
   font-family: "PathGoth";
-  color: rgba(24, 175, 150, 0.17);
+  color: rgba(24, 175, 150, 0.616);
   font-size: 170%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -370,7 +370,7 @@ header form button {
 }
 
 header form button:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(9, 11, 88, 0.5);
   text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
 }
 
