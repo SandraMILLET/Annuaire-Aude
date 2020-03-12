@@ -16,4 +16,13 @@ class AnnuaireController extends AbstractController
             'controller_name' => 'AnnuaireController',
         ]);
     }
+    /**
+     * @Route("/inscriptionPro", name="inscriptionpro")
+     */
+    public function inscriptionPro()
+    {
+        return $this->render('annuaire/inscription_pro.html.twig', [
+            'controller_name' => 'AnnuaireController',
+        ]);
+    }
 }

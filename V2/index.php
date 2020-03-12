@@ -62,22 +62,28 @@
                     <p class="subs mt-4 text-center mx-auto">Consulter notre annuaire des professionnels en ligne</p>
                 </div>
                 <div class="row news-grids py-lg-5 py-3 mt-3 text-center">
-                    <div class="col-md-4 newsgrid">
+                    <div class="col-md-3 newsgrid">
                         <figure><img src="IMG/plombier.jpg" alt="news image" class="img-fluid"></figure>
                         <div class="news_btm mt-4">
                             <h6>Bâtiments</h6>
                         </div>
                     </div>
-                    <div class="col-md-4 mt-md-0 mt-5 newsgrid">
+                    <div class="col-md-3 mt-md-0 mt-3 newsgrid">
                         <figure><img src="IMG/esthetique.jpg" alt="news image" class="img-fluid"></figure>
                         <div class="news_btm mt-4">
                             <h6>Esthétique</h6>
                         </div>
                     </div>
-                    <div class="col-md-4  mt-md-0 mt-5 newsgrid">
+                    <div class="col-md-3  mt-md-0 mt-3 newsgrid">
                         <figure><img src="IMG/restauration.jpg" alt="news image" class="img-fluid"></figure>
                         <div class="news_btm mt-4">
                             <h6>Restauration</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3  mt-md-0 mt-3 newsgrid">
+                        <figure><img src="IMG/sante.jpg" alt="news image" class="img-fluid"></figure>
+                        <div class="news_btm mt-4">
+                            <h6>Santé</h6>
                         </div>
                     </div>
                 </div>
