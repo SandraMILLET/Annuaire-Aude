@@ -20,19 +20,8 @@
             src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
+        <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-        <link
-            href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css"
-            media="all"
-            rel="stylesheet">
-        <link
-            href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css"
-            media="all"
-            rel="stylesheet">
-        <link
-            href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css"
-            media="all"
-            rel="stylesheet">
         <title>Maquette Annuaire V3</title>
     </head>
     <body>
@@ -60,7 +49,7 @@
                         <a href="#">S'Inscrire</a>
 
                         <a href="#">
-                            <i class="fas fa-search"></i>
+                            <i class='lni lni-search-alt'></i>
                         </a>
 
                     </div>
@@ -148,35 +137,222 @@
                             </div>
                         </div>
                     </div>
+                    <div class="card-deck">
+                        <div class="card">
+                            <img src="./img/cci1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Batîment</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo consequat.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./img/cci2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Esthétique</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo consequat.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./img/cci3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Restauration</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo consequat.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./img/cci3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Restauration</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="centrerleboutton">
-                Trouvez tous les métiers dont vous avez besoin sur cet annuaire en ligne !<br><br>
-                <button type="button" class="btn btn-outline-light">Voir toutes les catégories de métiers</button>
             </div>
         </div>
 
         <div id="p3">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-6 actusl">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12 servtitle">Services</div>
-                                <div class="col-sm-12 servsubtitle">Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua.
-                                </div>
-                                <div class="col-sm-12 servimg">...</div>
+                    <div class="col-sm-4 servl"></div>
+                    <div class="col-sm-8 servr">
+
+                        <div class="servbloc">
+                            <div class="servblocicon">
+                                <i class='lni lni-eye bigicon'></i><br>
+                                VISIBILITÉ
                             </div>
+                            <div class="servdesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore.</div>
+                        </div><br>
+
+                        <div class="servbloc">
+                            <div class="servblocicon">
+                                <i class='lni lni-thumbs-up bigicon'></i><br>
+                                PRATIQUE
+                            </div>
+                            <div class="servdesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore.</div>
+                        </div><br>
+
+                        <div class="servbloc">
+                            <div class="servblocicon">
+                                <i class='lni lni-notepad bigicon'></i><br>
+                                ACTUS
+                            </div>
+                            <div class="servdesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore.</div>
                         </div>
+
                     </div>
-                    <div class="col-sm-6 actusr">...</div>
                 </div>
             </div>
         </div>
 
-        <div id="p4"></div>
+        <div id="p4">
 
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4 actulist">
+
+                        <ul class="list-unstyled">
+                            <li class="media">
+                                <img src="./img/actus.png" class="mr-3 imgactussize" alt="...">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">Dernière Norme</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin.
+                                    <b>Consulter</b>
+                                </div>
+                            </li>
+                            <li class="media my-4">
+                                <img src="./img/actus.png" class="mr-3 imgactussize" alt="...">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">Dernière Norme</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin.
+                                    <b>Consulter</b>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <img src="./img/actus.png" class="mr-3 imgactussize" alt="...">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">Dernière Norme</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin.
+                                    <b>Consulter</b>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <img src="./img/actus.png" class="mr-3 imgactussize" alt="...">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">Dernière Norme</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin.
+                                    <b>Consulter</b>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-sm-4 actulist">
+
+                        <ul class="list-unstyled">
+                            <li class="media">
+                                <img src="./img/actus.png" class="mr-3 imgactussize" alt="...">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">Dernière Norme</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin.
+                                    <b>Consulter</b>
+                                </div>
+                            </li>
+                            <li class="media my-4">
+                                <img src="./img/actus.png" class="mr-3 imgactussize" alt="...">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">Dernière Norme</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin.
+                                    <b>Consulter</b>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <img src="./img/actus.png" class="mr-3 imgactussize" alt="...">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">Dernière Norme</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin.
+                                    <b>Consulter</b>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <img src="./img/actus.png" class="mr-3 imgactussize" alt="...">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">Dernière Norme</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin.
+                                    <b>Consulter</b>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-sm-4 actusnormes"></div>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3 footerorg">
+
+                        <div class="footertitle">Inscrivez-vous à notre newsletter</div>
+
+                        <button type="button" class="btn btn-outline-light">Votre e-mail</button><br>
+
+                        <button type="button" class="btn btn-outline-light">Je m'incris</button>
+
+                    </div>
+                    <div class="col-sm-3 footerorg">
+
+                        <div class="footertitle">Nos solutions</div>
+                        Lorem ipsum dolor sit amet, consectetur adipiagna ultrices iaculis. Vestibulum,
+                        felis, libero, ac lacinia dictumst eget amet ut. Imperdiet pellentesque
+                        fermentum lacinia nibh nulla morbi a.
+
+                    </div>
+                    <div class="col-sm-3 footerorg">
+
+                        <div class="footertitle">A propos</div>
+                        Lorem ipsum dolor sit amet, consectetur adipiagna ultrices iaculis. Vestibulum,
+                        felis, libero, ac lacinia dictumst eget amet ut. Imperdiet pellentesque
+                        fermentum lacinia nibh nulla morbi a.
+
+                    </div>
+                    <div class="col-sm-3 footerorg">
+
+                        <div class="footertitle">Support et Contact</div>
+                        04 68 56 67 11
+Suivez-nous !
+
+                    </div>
+                </div>
+            </div>
+
+        </footer>
     </body>
 </html>
